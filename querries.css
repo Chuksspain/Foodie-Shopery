@@ -1,0 +1,402 @@
+@media (max-width: 1200px) {
+
+    section,
+    footer {
+        max-width: 1200px;
+    }
+
+    .fresh-section,
+    header,
+    .nav-telephone,
+    .free.guarantee,
+    .categories-section,
+    .sale-month-sec,
+    /* .viewpopular, */
+    .summermore,
+    .clientsection,
+    footer {
+        width: 1000px;
+    }
+
+    .popular-view,
+    /* .stepseries, */
+    .latestnews,
+    /* .appleorangeice, */
+    header {
+        width: 730px;
+    }
+
+
+    .novmore {
+        gap: 15px;
+    }
+
+    .apple-sale {
+        width: 148px;
+    }
+
+    .fruitnow,
+    .lownow,
+    .bestnow,
+    /* .novread, */
+    .pelfox {
+        width: 235px;
+    }
+
+    /* .salesecs {
+        width: 296px;
+    } */
+
+    .summernow {
+        width: 733px;
+        padding-left: 430px;
+    }
+
+    .special,
+    .off {
+        width: 600px;
+        height: 500px;
+    }
+
+    .special p {
+        font-size: 35px;
+    }
+
+    .off p {
+        font-size: 35px;
+    }
+
+    /* .organic {
+        width: 500px;
+    } */
+
+    .free-order {
+        width: 130px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    section,
+    header {
+        width: 800px;
+    }
+
+    .index-center {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+
+    .top,
+    .nav-telephone,
+    .organic,
+    .off-wrap,
+    .fresh-health,
+    .popular-view,
+    .green-peper,
+    .bestnow,
+    .lownow,
+    .fruitnow,
+    .viewpopular,
+    .salemango,
+    .summermore,
+    .summernow,
+    .index-center,
+    .novread,
+    .latestnews,
+    .pelcustomer,
+    .pelfox,
+    .stepseries,
+    .appleorangeice,
+    .submagna p {
+        width: 1190px;
+        padding: 0;
+    }
+
+    .appleorangeice div {
+        height: 100%;
+    }
+
+    .summernow {
+        padding-left: 880px;
+    }
+
+    .salesecs img {
+        width: 100%;
+    }
+
+    .salesecs {
+        width: 800px;
+    }
+
+    .chinesegreen {
+        width: 600px;
+    }
+
+    .applesale {
+        width: 167px;
+    }
+
+    .applesalle {
+        width: 236px;
+    }
+
+    .salegreen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+    }
+
+    .viewpopular {
+        height: 950px;
+    }
+
+    .free-garrantee {
+        width: 1200px;
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+
+    .freegarrantee {
+        width: 1200px;
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+
+    .telwrap span {
+        font-size: 5px;
+    }
+
+    .ecobazar-wrap span {
+        font-size: 25px;
+    }
+
+    .fresh-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .organic {
+        width: 100%;
+    } */
+
+    .freshcategory {
+        width: 420px;
+    }
+
+    .iconcategories {
+        width: 300px;
+        padding: 0;
+    }
+
+    .freshcategory div {
+        width: 100%;
+    }
+
+    .off-wrap {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    /* .off,
+    .special {
+        width: 400px;
+    } */
+
+    /* .free-garrantee {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-columns: 300px 300px;
+        height: 170px;
+    } */
+
+    .fresh-health {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px;
+    }
+
+    /* .fresh-fruit-wrap, */
+    .green-peper {
+        /* display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .green-eggplant {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .apple-sale {
+        width: 550px;
+        height: 600px;
+    }
+
+    .apple-sale img {
+        height: 300px;
+    }
+
+    .fresh-fruit-wrap {
+        width: 100%;
+        height: 300px;
+    }
+
+    .fresh-fruit-wrap img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .free-order {
+        width: 100px;
+    }
+
+    .all-order {
+        font-size: 13px;
+    }
+
+    .organictwo {
+        width: 100%;
+    }
+
+    .freshfood {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+    }
+
+    .sale-fruit {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .salefruit {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bestnow,
+    .fruitnow,
+    .lownow {
+        /* width: 100%; */
+        height: 1500px;
+    }
+
+    .bestnowtext {
+        font-size: 50px;
+    }
+
+    .bestnow p,
+    .bestnowtextp,
+    .sixtyoff,
+    .upto,
+    .startedat,
+    .staretdprice {
+        font-size: 40px;
+    }
+
+    .bestnow button,
+    .bestnowtext button {
+        width: 300px;
+        height: 60px;
+        font-size: 30px;
+    }
+
+    .novmore,
+    .pelcustomer,
+    .subinsta {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .novread {
+        /* width: 730px; */
+        height: 1500px;
+    }
+
+    .pelfox {
+        /* width: 730px; */
+        height: 270px;
+    }
+
+    .pelfox p,
+    .submagna p,
+    .accounthealth span,
+    .ecobazarcom p {
+        font-size: 20px;
+    }
+
+    .novbackgroundone,
+    .novbackgroundtwo,
+    .novbackgroundthree {
+        height: 1200px;
+    }
+
+    .clientsection {
+        padding-bottom: 40px;
+    }
+
+    .novtexts {
+        font-size: 30px;
+    }
+
+    .appleorangeice {
+        display: grid;
+        grid-template-columns: 575px 575px;
+        grid-template-rows: 200px 200px 200px;
+    }
+
+    .appleorangeice div {
+        width: 100%;
+        height: 180px;
+    }
+
+    .yourinstaform {
+        width: 1100px;
+        align-items: center;
+    }
+
+    .ecobazar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .summerorder {
+        display: grid;
+        grid-template-columns: 600px 555px;
+    }
+
+
+    .hotorder {
+        display: grid;
+        grid-template-columns: 550px;
+    }
+
+    .summercorn {
+        display: grid;
+        grid-template-columns: 550px;
+        gap: 140px;
+    }
+
+    .summershop,
+    .apple-saletwo,
+    .hotlettuce,
+    .fruitandtext {
+        width: 100%;
+    }
+}
