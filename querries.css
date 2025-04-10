@@ -83,17 +83,25 @@
 
 @media (max-width: 800px) {
 
-    section,
+    /* section,
     header {
         width: 500px;
-    }
+    } */
 
     .index-center {
+        margin-left: 0px;
         padding-left: 0px;
         padding-right: 0px;
     }
 
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
 
+    form input {
+        width: 270px;
+    }
 
     .top,
     .nav-telephone,
