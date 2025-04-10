@@ -121,8 +121,9 @@
     .applesale,
     .applesalle,
     .salesecs {
-        width: 360px;
+        width: 370px;
         padding: 0;
+        margin-left: 0px;
     }
 
     .appleorangeice div {
