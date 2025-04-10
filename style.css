@@ -984,7 +984,7 @@ form input {
 }
 
 .applesalle img {
-    height: 150px;
+    height: 270px;
     width: 100%;
     align-self: center;
 }
@@ -993,8 +993,10 @@ form input {
     /* align-self: center; */
 }
 
+
+
 .applesale img {
-    height: 140px;
+    height: 270px;
     width: 100%;
     align-self: center;
 }
