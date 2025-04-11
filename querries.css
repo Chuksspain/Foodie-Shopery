@@ -83,10 +83,9 @@
 
 @media (max-width: 800px) {
 
-    /* section,
-    header {
-        width: 500px;
-    } */
+    * {
+        box-sizing: border-box;
+    }
 
     .index-center {
         margin-left: 0px;
