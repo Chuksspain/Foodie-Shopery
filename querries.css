@@ -98,8 +98,22 @@
         flex-direction: column;
     }
 
+    .nav-telephone {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        /* display: none; */
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
     form input {
-        width: 269px;
+        width: 209px;
     }
 
     .top,
@@ -128,7 +142,7 @@
     .applesale,
     .applesalle,
     .salesecs {
-        width: 340px;
+        width: 355px;
         padding: 0;
         margin-left: 0px;
     }
