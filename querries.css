@@ -96,12 +96,14 @@
     .top {
         display: flex;
         flex-direction: column;
+        gap: 15px;
     }
 
     .nav-telephone {
         display: flex;
         flex-direction: column;
         height: 300px;
+        gap: 20px;
         /* display: none; */
     }
 
