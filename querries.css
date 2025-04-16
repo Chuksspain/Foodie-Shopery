@@ -106,7 +106,8 @@
         /* display: none; */
     }
 
-    nav {
+    nav,
+    .freshfood {
         display: flex;
         flex-direction: column;
     }
@@ -220,9 +221,12 @@
     }
 
     .freegarrantee {
-        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
         padding-left: 10px;
         padding-right: 60px;
+        padding-bottom: 20px;
     }
 
     .telwrap span {
@@ -243,7 +247,7 @@
     } */
 
     .freshcategory {
-        width: 420px;
+        margin-top: 15px;
     }
 
     .iconcategories {
@@ -333,12 +337,12 @@
         width: 100%;
     }
 
-    .freshfood {
+    /* .freshfood {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 1200px;
-    }
+    } */
 
     .sale-fruit {
         display: flex;
@@ -458,8 +462,10 @@
     }
 
     .summerorder {
-        display: grid;
-        grid-template-columns: 600px 555px;
+        display: flex;
+        flex-direction: column;
+        /* display: grid;
+        grid-template-columns: 600px 555px; */
     }
 
 
@@ -477,6 +483,10 @@
     .summershop,
     .apple-saletwo,
     .hotlettuce,
+    .hotnow {
+        width: 65%;
+    }
+
     .fruitandtext {
         width: 100%;
     }
