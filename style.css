@@ -1686,14 +1686,64 @@ footer hr {
 .jennywrap {
     display: flex;
     flex-direction: column;
-    width: 230px;
+    width: 250px;
 }
 
 .jenneybackgroundone {
-    background-image: linear-gradient(rgba(8, 78, 6, 0.7), rgba(14, 84, 22, 0.617)), url('./images/promemeber1.jpg');
+    background-image: linear-gradient(rgba(11, 27, 10, 0.7), rgba(14, 84, 22, 0.617)), url('./images/promemeber1.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.jenneybackgroundtwo {
+    background-image: url('./images/promemeber2.jpg');
     background-size: cover;
     position: relative;
     display: flex;
     width: 100%;
     height: 200px;
+}
+
+.jenneybackgroundthree {
+    background-image: url('./images/prommeber3.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.jenneybackgroundfour {
+    background-image: url('./images/promemeber4.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.jennyfounder {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid rgb(225, 224, 224);
+    height: 70px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.jennywilson {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.jennywilsonceo {
+    font-size: 14px;
+    color: #4D4D4D;
 }

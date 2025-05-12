@@ -81,16 +81,18 @@
     }
 }
 
-@media (max-width: 400px) {
 
-    * {
-        box-sizing: border-box;
-    }
+@media (max-width: 850px) {
 
-    .index-center {
+    /* .index-center {
         margin-left: 0px;
         padding-left: 0px;
         padding-right: 0px;
+    } */
+    header,
+    section,
+    footer {
+        width: 100%;
     }
 
     .top {
@@ -144,7 +146,8 @@
     .apple-sale,
     .applesale,
     .applesalle,
-    .salesecs {
+    .salesecs,
+    .jennywrap {
         width: 100%;
         padding: 0;
         margin-left: 0px;
@@ -466,6 +469,12 @@
         flex-direction: column;
         /* display: grid;
         grid-template-columns: 600px 555px; */
+    }
+
+    .jennyfox {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
 
