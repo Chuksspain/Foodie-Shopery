@@ -468,10 +468,22 @@ form input {
     font-weight: 500;
 }
 
+.popularview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .popular-view {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.clientsveiw {
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .popular-categories {
@@ -479,6 +491,14 @@ form input {
     /* width: 280px; */
     height: 30px;
     font-weight: 600;
+}
+
+.popularcategories {
+    font-size: 16px;
+    /* width: 280px; */
+    /* height: 30px; */
+    font-weight: 600;
+    color: #00B307;
 }
 
 .popular-categorie {
@@ -630,7 +650,7 @@ form input {
 }
 
 .greeniconrate {
-    margin-top: -10px;
+    margin-top: ;
 }
 
 .g-pricewrap {
@@ -980,11 +1000,11 @@ form input {
     padding: 0 10px 5px 10px;
     justify-content: space-between;
     border: 0.5px solid rgb(240, 239, 239);
-
+    margin-bottom: 60px;
 }
 
 .applesalle img {
-    height: 270px;
+    height: 240px;
     width: 100%;
     align-self: center;
 }
@@ -996,7 +1016,7 @@ form input {
 
 
 .applesale img {
-    height: 270px;
+    height: 240px;
     width: 100%;
     align-self: center;
 }
@@ -1256,6 +1276,22 @@ form input {
     padding-bottom: 50px;
 }
 
+.subiconwrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subiconwrap span {
+    color: white;
+}
+
+.clientsectiontwo {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .clean {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1375,6 +1411,13 @@ form input {
     border-style: none;
 }
 
+.yourinstaformtwo {
+    border-radius: 22px;
+    width: 400px;
+    border-style: none;
+    background: #333333;
+}
+
 .sublabel {
     background-color: #00B207;
     height: 45px;
@@ -1426,6 +1469,12 @@ footer {
     color: white;
 }
 
+.ecobazarcontacttexttwo {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
 .ecobazarcontacttextor {
     color: #ababab;
     font-size: 13px;
@@ -1450,13 +1499,13 @@ footer {
 
 .accountwishlisthead {
     color: white;
-    font-size: 14px;
+    font-size: 19px;
     margin-bottom: 5px;
 }
 
 .accountwishlisttext {
     color: #ababab;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 footer hr {
@@ -1471,6 +1520,14 @@ footer hr {
     margin-top: 100px;
     border-top: 2px solid #525252;
     padding-top: 30px;
+}
+
+.ecobazarpaymenttwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 
 .ecobazarpayment span {
@@ -1746,4 +1803,49 @@ footer hr {
 .jennywilsonceo {
     font-size: 14px;
     color: #4D4D4D;
+}
+
+.ecobazerplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ecobazercom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ecobazercom p {
+    width: 330px;
+    font-size: 15px;
+    color: #797979;
+}
+
+.shopfooter {
+    background-color: #F2F2F2;
+}
+
+.mywishlistfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.mywishlistfooter span {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+.mywishlistfooter p {
+    color: #797979;
+    font-size: 15px;
+    line-height: 0.5px;
+}
+
+.mywishlistfooterappicons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

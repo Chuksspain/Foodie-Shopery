@@ -409,12 +409,27 @@
         height: 270px;
     }
 
-    .pelfox p,
+    .accounthealth {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .ecobazarpayment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+    }
+
+    /* .pelfox p,
     .submagna p,
     .accounthealth span,
     .ecobazarcom p {
         font-size: 20px;
-    }
+    } */
 
     .novbackgroundone,
     .novbackgroundtwo,
@@ -445,15 +460,17 @@
         height: 400px;
     }
 
+    /* 
     .accountwishlisthead {
         font-size: 5px;
     }
 
     .accountwishlisttext {
         font-size: 5px;
-    }
+    } */
 
-    .yourinstaform {
+    .yourinstaform,
+    .yourinstaformtwo {
         width: 350px;
         align-items: center;
     }
@@ -462,6 +479,27 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+
+    .ecobazerplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ecobazercom {
+        margin-bottom: 20px;
+    }
+
+    .ecobazerplay {
+        padding-bottom: 20px;
+    }
+
+
+
+    .ecobazarpaymenttwo {
+        display: flex;
+        flex-direction: column;
     }
 
     .summerorder {
