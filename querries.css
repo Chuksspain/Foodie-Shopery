@@ -120,7 +120,8 @@
     .nav-telephone {
         display: flex;
         flex-direction: column;
-        height: 310px;
+        justify-content: space-evenly;
+        height: 350px;
         /* display: none; */
     }
 
