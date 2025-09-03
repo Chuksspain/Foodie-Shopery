@@ -139,7 +139,6 @@
 
 
     .nav-telephone,
-    .organic,
     .off,
     .special,
     .fresh-health,
@@ -156,7 +155,6 @@
     .latestnews,
     .pelcustomer,
     .pelfox,
-    .stepseries,
     /* .appleorangeice, */
     .submagna p,
     .apple-sale,
@@ -261,9 +259,15 @@
         flex-direction: column;
     }
 
-    /* .organic {
+    .organic {
         width: 100%;
-    } */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .organic-texts {
+        text-align: center;
+    }
 
     .freshcategory {
         margin-top: 15px;
@@ -299,7 +303,8 @@
 
     .fresh-health,
     .fresh-healththree,
-    .appleorangeice {
+    .appleorangeice,
+    .stepseries {
         /* display: grid;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 300px 300px; */
@@ -307,6 +312,8 @@
         flex-direction: column;
         gap: 3px;
     }
+
+
 
     /* .fresh-fruit-wrap, */
     .green-peper {
@@ -441,7 +448,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 70px;
+        height: 100px;
     }
 
     /* .pelfox p,
@@ -552,6 +559,7 @@
 .ecobazarpaymenttwo {
     display: flex;
     flex-direction: column;
+
 }
 
 .summerorder {
