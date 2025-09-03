@@ -7,7 +7,6 @@
     }
 
     .fresh-section,
-    header,
     .nav-telephone,
     .free.guarantee,
     .categories-section,
@@ -96,10 +95,26 @@
         width: 100%;
     }
 
+    header {
+        padding: 0;
+    }
+
+    .heart-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
     .top {
         display: flex;
         flex-direction: column;
         gap: 15px;
+    }
+
+    .ecobazar-wrap {
+        display: flex;
+        flex-direction: row;
     }
 
     .nav-telephone {
@@ -122,7 +137,7 @@
     }
 
 
-    .top,
+
     .nav-telephone,
     .organic,
     .off,
