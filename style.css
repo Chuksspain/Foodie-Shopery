@@ -9,6 +9,11 @@ nav {
 
 }
 
+header {
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
 .nav-telephone {
     display: flex;
     flex-direction: row;
@@ -49,6 +54,8 @@ nav a {
 .index-center {
     padding-left: 130px;
     padding-right: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .top {
@@ -83,9 +90,21 @@ nav a {
     gap: 15px;
 }
 
+.ecobazar-wrapthree {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 .ecobazar-wrap span {
     font-size: 32px;
     font-weight: 500;
+}
+
+.ecobazar-wrapthree span {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
 }
 
 form input {
@@ -111,6 +130,14 @@ form input {
     justify-content: space-between;
 }
 
+.freshfood-wrap {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
 .organic {
     background-image: url('../images/e3446b7d29575d3d991b00a479103bab.jpg');
     width: 750px;
@@ -119,6 +146,20 @@ form input {
     background-size: cover;
     position: relative;
     align-content: center;
+}
+
+.organicthree {
+    background-color: #EDF2EE;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.organicthree img {
+    width: 600px;
 }
 
 .organictwo {
@@ -213,6 +254,14 @@ form input {
     color: white;
 }
 
+.organic-textsfreshtwo {
+    width: 350px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 37px;
+}
+
 .organic-textsfresh {
     width: 350px;
     height: 80px;
@@ -257,6 +306,10 @@ form input {
     color: white;
 }
 
+.sale-offtexttwo {
+    color: gray;
+}
+
 /* .sale-free span {
     color: rgb(246, 244, 244);
     font-size: 12px;
@@ -273,6 +326,11 @@ form input {
 .sale {
     font-size: 25px;
     color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.saleorganic {
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -295,6 +353,26 @@ form input {
     font-weight: 600;
     padding: 5px;
     border-radius: 5px;
+}
+
+.oforganic {
+    font-size: 25px;
+    color: #FF8A00;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.freshfood-wrap button {
+    color: white;
+    background-color: #00B207;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px 24px;
+    width: 170px;
+    border-radius: 48px;
+    border-width: 1px;
+    height: 50px;
 }
 
 .organic-texts button {
@@ -383,6 +461,19 @@ form input {
     padding: 0 16px;
 }
 
+.free-garranteethree {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94%;
+    height: 80px;
+    justify-self: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 0 16px;
+}
+
 .freegarrantee {
     display: flex;
     flex-direction: row;
@@ -440,6 +531,14 @@ form input {
     justify-content: space-between;
 }
 
+.fresh-healththree {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .fresh-fruit-wrap {
     display: flex;
     flex-direction: column;
@@ -452,10 +551,27 @@ form input {
 
 }
 
+.fresh-fruit-wrapthree {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border: solid;
+    border-width: 0.5px;
+    border-color: #cac8c8;
+    width: 120px;
+    border-radius: 7px;
+    align-items: center;
+}
+
 .fv {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     border: solid 2px #00B207;
 
+}
+
+.fresh-fruit-wrapthree img {
+    width: 80px;
+    align-self: center;
 }
 
 .fresh-fruit-wrap img {
@@ -550,6 +666,16 @@ form input {
     border: 0.5px solid rgb(190, 189, 189);
 }
 
+.apple-salethree {
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+    height: 280px;
+    padding: 0 10px 10px 10px;
+    justify-content: space-between;
+    border: 0.5px solid rgb(190, 189, 189);
+}
+
 .apple-saletwo-hover {
     border: 2px solid #00B207;
 }
@@ -602,7 +728,8 @@ form input {
 }
 
 .apple-sale img,
-.apple-saletwo img {
+.apple-saletwo img,
+.apple-salethree img {
     height: 150px;
     width: 100%;
     align-self: center;
@@ -1292,6 +1419,12 @@ form input {
     padding-bottom: 50px;
 }
 
+.clientsectionthree {
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .clean {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1388,10 +1521,33 @@ form input {
     flex-direction: column;
 }
 
+.submagnathree {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    justify-content: space-between;
+}
+
 .submagna span {
     font-size: 23px;
     font-weight: 600;
 }
+
+.snwrap {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.snwrap p {
+    width: 400px;
+}
+
+.snwrap span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 .submagna p {
     color: #8e8e8e;
@@ -1416,6 +1572,13 @@ form input {
     width: 400px;
     border-style: none;
     background: #333333;
+}
+
+.yourinstaformthree {
+    border-radius: 22px;
+    width: 400px;
+    border-style: none;
+
 }
 
 .sublabel {
@@ -1450,7 +1613,18 @@ footer {
     gap: 15px;
 }
 
+.ecobazarcomthree {
+    display: flex;
+    flex-direction: column;
+}
+
 .ecobazarcom p {
+    font-size: 13px;
+    color: #ababab;
+    width: 350px;
+}
+
+.ecobazarcomthreep {
     font-size: 13px;
     color: #ababab;
     width: 350px;
@@ -1464,6 +1638,12 @@ footer {
 }
 
 .ecobazarcontacttext {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.ecobazarcontacttextthree {
     font-size: 14px;
     font-weight: 600;
     color: white;
@@ -1613,9 +1793,9 @@ footer hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .summerorder {
@@ -1827,7 +2007,16 @@ footer hr {
     background-color: #F2F2F2;
 }
 
+.pagefooter {
+    background-color: rgb(55, 54, 54);
+}
+
 .mywishlistfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.mywishlistfooterthree {
     display: flex;
     flex-direction: column;
 }
@@ -1838,7 +2027,20 @@ footer hr {
     margin-bottom: 25px;
 }
 
+.mywishlistfooterthree span {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 25px;
+    color: white;
+}
+
 .mywishlistfooter p {
+    color: #797979;
+    font-size: 15px;
+    line-height: 0.5px;
+}
+
+.mywishlistfooterthree p {
     color: #797979;
     font-size: 15px;
     line-height: 0.5px;

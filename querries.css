@@ -3,6 +3,7 @@
     section,
     footer {
         max-width: 1200px;
+        margin: 0;
     }
 
     .fresh-section,
@@ -141,7 +142,7 @@
     .pelcustomer,
     .pelfox,
     .stepseries,
-    .appleorangeice,
+    /* .appleorangeice, */
     .submagna p,
     .apple-sale,
     .applesale,
@@ -281,12 +282,15 @@
         height: 170px;
     } */
 
-    .fresh-health {
+    .fresh-health,
+    .fresh-healththree,
+    .appleorangeice {
         /* display: grid;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 300px 300px; */
         display: flex;
         flex-direction: column;
+        gap: 3px;
     }
 
     /* .fresh-fruit-wrap, */
@@ -318,7 +322,8 @@
         height: 270px;
     }
 
-    .fresh-fruit-wrap {
+    .fresh-fruit-wrap,
+    .fresh-fruit-wrapthree {
         width: 100%;
         height: 300px;
     }
@@ -445,22 +450,53 @@
         font-size: 25px;
     }
 
-    .appleorangeice {
-        /* display: grid;
+    .appleorangeice,
+    {
+    /* display: grid;
         grid-template-columns: 575px 575px;
         grid-template-rows: 200px 200px 200px; */
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 20px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
 
-    .appleorangeice div {
-        width: 100%;
-        height: 400px;
-    }
+.appleorangeice div {
+    width: 100%;
+    height: 400px;
+}
 
-    /* 
+.organicthree,
+.summershop {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.organicthree img {
+    width: 100%;
+}
+
+
+
+.free-garranteethree {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 20px;
+}
+
+.submagnathree {
+    display: flex;
+    flex-direction: column;
+}
+
+.apple-salethree {
+    width: 97vw;
+    height: 70vh;
+}
+
+/* 
     .accountwishlisthead {
         font-size: 5px;
     }
@@ -469,72 +505,73 @@
         font-size: 5px;
     } */
 
-    .yourinstaform,
-    .yourinstaformtwo {
-        width: 350px;
-        align-items: center;
-    }
+.yourinstaform,
+.yourinstaformtwo,
+.yourinstaformthree {
+    width: 350px;
+    align-items: center;
+}
 
-    .ecobazar {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+.ecobazar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-    .ecobazerplay {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.ecobazerplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .ecobazercom {
-        margin-bottom: 20px;
-    }
+.ecobazercom {
+    margin-bottom: 20px;
+}
 
-    .ecobazerplay {
-        padding-bottom: 20px;
-    }
+.ecobazerplay {
+    padding-bottom: 20px;
+}
 
 
 
-    .ecobazarpaymenttwo {
-        display: flex;
-        flex-direction: column;
-    }
+.ecobazarpaymenttwo {
+    display: flex;
+    flex-direction: column;
+}
 
-    .summerorder {
-        display: flex;
-        flex-direction: column;
-        /* display: grid;
+.summerorder {
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
         grid-template-columns: 600px 555px; */
-    }
+}
 
-    .jennyfox {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+.jennyfox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
-    .hotorder {
-        display: grid;
-        grid-template-columns: 550px;
-    }
+.hotorder {
+    display: grid;
+    grid-template-columns: 550px;
+}
 
-    .summercorn {
-        display: grid;
-        grid-template-columns: 550px;
-        gap: 140px;
-    }
+.summercorn {
+    display: grid;
+    grid-template-columns: 550px;
+    gap: 140px;
+}
 
-    .summershop,
-    .apple-saletwo,
-    .hotlettuce,
-    .hotnow {
-        width: 65%;
-    }
+.summershop,
+.apple-saletwo,
+.hotlettuce,
+.hotnow {
+    width: 65%;
+}
 
-    .fruitandtext {
-        width: 100%;
-    }
+.fruitandtext {
+    width: 100%;
+}
 }
