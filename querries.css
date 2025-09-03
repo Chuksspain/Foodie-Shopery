@@ -303,8 +303,7 @@
 
     .fresh-health,
     .fresh-healththree,
-    .appleorangeice,
-    .stepseries {
+    .appleorangeice {
         /* display: grid;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 300px 300px; */
@@ -313,7 +312,12 @@
         gap: 3px;
     }
 
-
+    .stepseries {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
 
     /* .fresh-fruit-wrap, */
     .green-peper {
@@ -359,12 +363,19 @@
         width: 100px;
     }
 
+    .organictexts {
+        padding: 0;
+    }
+
     .all-order {
         font-size: 13px;
     }
 
+
+
     .organictwo {
         width: 100%;
+        background-position: center;
     }
 
     /* .freshfood {
@@ -577,24 +588,29 @@
 
 
 .hotorder {
-    display: grid;
-    grid-template-columns: 550px;
+    display: flex;
+    flex-direction: column;
 }
 
+/* .hotorder {
+    display: grid;
+    grid-template-columns: 550px;
+} */
+
 .summercorn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .summercorn {
     display: grid;
     grid-template-columns: 550px;
     gap: 140px;
-}
+} */
 
-.summershop,
+.fruitandtext,
 .apple-saletwo,
-.hotlettuce,
-.hotnow {
-    width: 65%;
-}
-
-.fruitandtext {
+.summershop {
     width: 100%;
-}
 }
