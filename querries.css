@@ -95,6 +95,29 @@
         width: 100%;
     }
 
+    .menu-btn {
+        border: unset;
+        background: unset;
+        cursor: pointer;
+        display: block;
+        font-size: 35px;
+    }
+
+    .menu-btn .icon-mobile-nav[name="close-outline"] {
+        display: none;
+    }
+
+    .menu-btn .icon-mobile-nav[name="menu-outline"] {
+        display: block;
+    }
+
+    .nav-open {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+
     header {
         padding: 0;
     }
@@ -119,11 +142,24 @@
 
     .nav-telephone,
     .nav-telephonefour {
+        position: absolute;
+        top: 0;
+        left: -36px;
+        right: -20px;
+        width: 100vw;
+
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
         display: flex;
+        transition: all 0.5s;
+        opacity: 0;
+        pointer-events: none;
+        /* display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 350px;
-        /* display: none; */
+        height: 350px; */
+
     }
 
     nav,

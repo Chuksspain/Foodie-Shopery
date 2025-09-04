@@ -1821,6 +1821,19 @@ footer hr {
     gap: 10px;
 }
 
+.menu-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 35px;
+    width: 35px;
+    color: #e67e22;
+}
+
 .iconcategoriesfoursvg {
     display: flex;
     flex-direction: row;
