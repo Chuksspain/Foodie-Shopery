@@ -117,7 +117,8 @@
         flex-direction: row;
     }
 
-    .nav-telephone {
+    .nav-telephone,
+    .nav-telephonefour {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -281,6 +282,13 @@
     .iconcategories {
         width: 300px;
         padding: 0;
+    }
+
+    .iconcategoriesfour {
+        display: flex;
+        flex-direction: column;
+        /* width: 300px;
+        padding: 0; */
     }
 
     .freshcategory div {
@@ -510,13 +518,18 @@
 }
 
 .organicthree,
-.summershop {
+.summershop,
+.organicfour {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
 .organicthree img {
+    width: 100%;
+}
+
+.organicfour img {
     width: 100%;
 }
 
