@@ -111,11 +111,11 @@
         display: block;
     }
 
-    .nav-open {
+    /* .nav-open .nav-telephonefour {
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
-    }
+    } */
 
 
     header {
@@ -142,23 +142,14 @@
 
     .nav-telephone,
     .nav-telephonefour {
-        position: absolute;
         top: 0;
-        left: -36px;
-        right: -20px;
-        width: 100vw;
-
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
         display: flex;
-        transition: all 0.5s;
-        opacity: 0;
-        pointer-events: none;
-        /* display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        height: 350px; */
+        /* justify-content: space-evenly; */
+        height: 250px;
+        position: relative;
+        width: 100%;
+        margin-top: 0;
 
     }
 
@@ -168,7 +159,11 @@
         flex-direction: column;
     }
 
-
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
     form input {
         width: 230px;
@@ -311,6 +306,11 @@
         padding: 0;
     }
 
+    .catcategoryy {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
     .freshcategory {
         margin-top: 15px;
     }
@@ -323,8 +323,7 @@
     .iconcategoriesfour {
         display: flex;
         flex-direction: column;
-        /* width: 300px;
-        padding: 0; */
+        width: 100%;
     }
 
     .freshcategory div {
@@ -352,19 +351,27 @@
 
     .fresh-health,
     .fresh-healththree,
-    .appleorangeice {
+    .appleorangeice,
+    .freshbreakfast {
         /* display: grid;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 300px 300px; */
         display: flex;
         flex-direction: column;
-        gap: 3px;
+        gap: 10px;
+        width: 100%;
     }
 
-    .stepseries {
+    .freshbreakfast img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .stepseries,
+    .allviewallwrap {
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
         align-items: center;
     }
 
@@ -382,7 +389,7 @@
     .green-eggplant {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        /* gap: 40px; */
     }
 
     .apple-sale {
@@ -555,7 +562,8 @@
 
 .organicthree,
 .summershop,
-.organicfour {
+.organicfour,
+.fruitmanfruits {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -574,6 +582,26 @@
     flex-direction: column;
     height: 100vh;
     padding-bottom: 20px;
+    width: 100%;
+}
+
+.free-garranteefour {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.free-iconfourone {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.free-iconfour {
+    width: 100%;
+    padding-top: 10px;
 }
 
 .submagnathree {

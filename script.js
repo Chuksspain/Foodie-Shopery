@@ -1,5 +1,5 @@
-const btnNavEL = document.querySelector(".menu-btn");
-const headerEL = document.querySelector("header");
-btnNavEL.addEventListener('click', function () {
-    headerEL.classList.toggle("nav-open")
+const btnEL = document.querySelector(".menu-btn");
+const divEL = document.querySelector("div.nav-telephonefour");
+btnEL.addEventListener('click', function () {
+    divEL.classlist.toggle("nav-open")
 })
