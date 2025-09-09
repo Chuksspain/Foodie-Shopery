@@ -203,9 +203,9 @@
         font-size: 30px;
         text-decoration: none;
         text-align: center;
-        right: 0;
+        right: 10px;
         top: 10px;
-        height: 40px;
+        height: 35px;
         width: 40px;
         z-index: 2;
     }
