@@ -179,7 +179,7 @@
         flex-direction: column;
     }
 
-    .topnav a {
+    /* .topnav a {
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -193,14 +193,14 @@
         position: absolute;
         right: 0;
         top: 0;
-    }
+    } */
 
     a.icon {
         background: black;
         display: block;
         position: fixed;
         color: #fff;
-        font-size: 35px;
+        font-size: 30px;
         text-decoration: none;
         text-align: center;
         right: 0;

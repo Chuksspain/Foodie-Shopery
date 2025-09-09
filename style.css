@@ -64,6 +64,7 @@ header {
     padding-left: 130px;
     padding-right: 130px;
     margin-top: 20px;
+    z-index: 2;
 }
 
 .nav-telephonefour {
@@ -78,7 +79,6 @@ header {
     padding-left: 130px;
     padding-right: 130px;
     margin-top: 20px;
-
 }
 
 .nav-telephonefour a {
