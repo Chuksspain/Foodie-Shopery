@@ -1981,7 +1981,11 @@ footer hr {
     justify-content: center;
     color: #fff;
     gap: 10px;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
 }
+
 
 .menu-btn {
     border: none;

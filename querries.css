@@ -7,7 +7,7 @@
     }
 
     .fresh-section,
-    .nav-telephone,
+    /* .nav-telephone, */
     .free.guarantee,
     .categories-section,
     .sale-month-sec,
@@ -97,7 +97,7 @@
 
     .menu-btn {
         border: unset;
-        background: unset;
+        background: black;
         cursor: pointer;
         display: block;
         font-size: 35px;
@@ -111,11 +111,11 @@
         display: block;
     }
 
-    /* .nav-open .nav-telephonefour {
+    .nav-open nav {
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
-    } */
+    }
 
 
     header {
@@ -138,32 +138,92 @@
     .ecobazar-wrap {
         display: flex;
         flex-direction: row;
+        position: sticky;
     }
 
     .nav-telephone,
     .nav-telephonefour {
-        top: 0;
-        display: flex;
+        display: none;
+        /* display: flex; */
         flex-direction: column;
-        /* justify-content: space-evenly; */
-        height: 280px;
-        position: relative;
-        width: 100%;
+        align-items: center;
+        height: 60vh;
+        position: sticky;
+        width: 50%;
         margin-top: 0;
-        justify-content: center;
+        /* justify-content: center; */
+        justify-self: start;
+        padding: 0;
     }
 
-    nav,
+    .nav-telephone a,
+    .nav-telephonefour a,
+    .tel-wrap {
+        width: 200px;
+    }
+
+    .nav-telephonefour nav,
+    .nav-telephone nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        font-size: 18px;
+    }
+
+    /* nav, */
     .freshfood {
         display: flex;
         flex-direction: column;
     }
 
-    nav {
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    a.icon {
+        background: black;
+        display: block;
+        position: fixed;
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        right: 0;
+        top: 0;
+        height: 40px;
+        width: 40px;
+    }
+
+    .ecobazar-wrap .icon {
+        background: black;
+        display: block;
+        position: relative;
+        right: 0;
+        top: 0;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* nav {
         display: flex;
         flex-direction: column;
         gap: 10px;
-    }
+    } */
 
     form input {
         width: 230px;
@@ -171,7 +231,7 @@
 
 
 
-    .nav-telephone,
+    /* .nav-telephone, */
     .off,
     .special,
     .fresh-health,
@@ -261,6 +321,11 @@
         /* height: 950px; */
     }
 
+    #mylinks {
+        display: none;
+        position: fixed;
+    }
+
     .free-garrantee {
         display: flex;
         flex-direction: column;
@@ -285,6 +350,9 @@
 
     .ecobazar-wrap span {
         font-size: 25px;
+        color: #fff;
+        font-weight: 600;
+        height: 44px;
     }
 
     .fresh-wrap {
@@ -324,6 +392,16 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    .iconcategoriesfour a {
+        display: block;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
     }
 
     .freshcategory div {
