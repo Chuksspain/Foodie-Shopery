@@ -52,6 +52,10 @@ header {
     /* margin-right: -50px; */
 }
 
+a.icon {
+    display: none;
+}
+
 .nav-telephone {
     top: 0;
     position: sticky;
