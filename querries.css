@@ -154,6 +154,7 @@
         /* justify-content: center; */
         justify-self: start;
         padding: 0;
+        z-index: 2;
     }
 
     .nav-telephone a,
@@ -169,6 +170,7 @@
         justify-content: space-between;
         gap: 40px;
         font-size: 18px;
+        padding-left: 30px;
     }
 
     /* nav, */
@@ -198,12 +200,14 @@
         display: block;
         position: fixed;
         color: #fff;
-        font-size: 15px;
+        font-size: 35px;
         text-decoration: none;
+        text-align: center;
         right: 0;
         top: 0;
         height: 40px;
         width: 40px;
+        z-index: 2;
     }
 
     .ecobazar-wrap .icon {
@@ -350,7 +354,7 @@
 
     .ecobazar-wrap span {
         font-size: 25px;
-        color: #fff;
+        /* color: #fff; */
         font-weight: 600;
         height: 44px;
     }
