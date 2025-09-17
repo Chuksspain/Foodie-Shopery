@@ -152,7 +152,7 @@
         width: 50%;
         margin-top: 0;
         /* justify-content: center; */
-        justify-self: start;
+        justify-self: center;
         padding: 0;
         z-index: 2;
     }
@@ -573,10 +573,11 @@
 
     .novmore,
     .pelcustomer,
-    .subinsta {
+    .subinsta,
+    .novmorefour {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        /* gap: 40px; */
         margin-bottom: 40px;
     }
 
@@ -597,7 +598,8 @@
         align-items: center;
     }
 
-    .ecobazarpayment {
+    .ecobazarpayment,
+    .ecobazarpaymentfour {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -690,7 +692,8 @@
     padding-top: 10px;
 }
 
-.submagnathree {
+.submagnathree,
+.submagnafour {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -718,8 +721,17 @@
 .yourinstaform,
 .yourinstaformtwo,
 .yourinstaformthree {
-    width: 317px;
+    width: 300px;
     align-items: center;
+}
+
+.sublabel {
+    background-color: #00B207;
+    height: 45px;
+    color: white;
+    padding: 14px 14px;
+    border-radius: 23px;
+    margin-left: -55px;
 }
 
 .ecobazar {

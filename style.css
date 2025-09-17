@@ -56,6 +56,15 @@ a.icon {
     display: none;
 }
 
+.pelfoxcomer {
+    align-self: center;
+}
+
+.videoimagefour {
+    width: 100%;
+    margin-top: -350px;
+}
+
 .nav-telephone {
     top: 0;
     position: sticky;
@@ -83,6 +92,7 @@ a.icon {
     padding-left: 130px;
     padding-right: 130px;
     margin-top: 20px;
+    z-index: 2;
 }
 
 .nav-telephonefour a {
@@ -804,6 +814,12 @@ form input {
     justify-content: space-between;
 }
 
+.popular-viewfour {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .clientsveiw {
     font-size: 28px;
     font-weight: 600;
@@ -1494,6 +1510,18 @@ form input {
     padding-bottom: 50px;
 }
 
+.conjuntfour {
+    margin-bottom: 250px;
+}
+
+.novmorefour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-top: -250px;
+}
+
 .novread {
     display: flex;
     flex-direction: column;
@@ -1561,6 +1589,14 @@ form input {
     gap: 10px;
 }
 
+.novtextsfour {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    background-color: #fff;
+}
+
 .novtextsspan {
     color: #029707;
     font-size: 17px;
@@ -1573,6 +1609,16 @@ form input {
 }
 
 .novtexts button {
+    color: #039008;
+    font-size: 17px;
+    border-style: none;
+    width: 120px;
+    background-color: transparent;
+    padding: 0;
+    margin-left: -7px;
+}
+
+.novtextsfour button {
     color: #039008;
     font-size: 17px;
     border-style: none;
@@ -1603,6 +1649,19 @@ form input {
     background-color: #fff;
     width: 340px;
     border-radius: 10px;
+    align-items: center;
+}
+
+.pelfoxfour {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px 0 20px;
+    background-color: #fff;
+    width: 340px;
+    border-radius: 10px;
+    align-items: center;
+    /* height: 640px; */
 }
 
 .pelfoximagerating {
@@ -1622,6 +1681,17 @@ form input {
     justify-content: center;
 }
 
+.pelfoximagecustomerfour {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f0efef;
+    width: 113%;
+    height: 100%;
+    align-items: center;
+    padding-top: 20px;
+}
+
 .pelfoximagecustomer {
     display: flex;
     flex-direction: row;
@@ -1629,6 +1699,12 @@ form input {
 }
 
 .pelfoximagecustomer img {
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.pelfoximagecustomerfour img {
     width: 60px;
     height: 55px;
     border-radius: 50%;
@@ -1648,6 +1724,13 @@ form input {
     background-color: #f0efef;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.clientsectionfour {
+    background-color: #f0efef;
+    padding-top: 50px;
+    padding-bottom: 350px;
+
 }
 
 .subiconwrap {
@@ -1763,6 +1846,12 @@ form input {
     justify-content: space-between;
 }
 
+.subinstafour {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
 .submagna {
     display: flex;
     flex-direction: column;
@@ -1772,6 +1861,12 @@ form input {
     display: flex;
     flex-direction: row;
     width: 650px;
+    justify-content: space-between;
+}
+
+.submagnafour {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -1807,6 +1902,13 @@ form input {
     justify-content: space-between;
     align-items: center;
 }
+
+/* .yourinstafour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
 
 .yourinstaform {
     border-radius: 22px;
@@ -1867,7 +1969,7 @@ footer {
 
 .ecobazarcom p {
     font-size: 13px;
-    color: #ababab;
+    color: #fff;
     width: 350px;
 }
 
@@ -1957,7 +2059,23 @@ footer hr {
     align-items: center;
 }
 
+.ecobazarpaymentfour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: #002603;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
 .ecobazarpayment span {
+    color: #ababab;
+    font-size: 13px;
+}
+
+.ecobazarpaymentfour span {
     color: #ababab;
     font-size: 13px;
 }
@@ -2295,6 +2413,10 @@ footer hr {
 
 .shopfooter {
     background-color: #F2F2F2;
+}
+
+.footerfour {
+    background-color: #002603;
 }
 
 .pagefooter {
