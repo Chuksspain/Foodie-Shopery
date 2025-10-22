@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
 }
 
 nav {
@@ -12,6 +14,8 @@ nav {
 header {
     padding-left: 130px;
     padding-right: 130px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
 }
 
 .freshbreakfast {
