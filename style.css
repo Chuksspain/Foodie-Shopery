@@ -173,6 +173,12 @@ nav a {
     gap: 15px;
 }
 
+.ecobazar-wrapfour {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 .ecobazar-wrapthree {
     display: flex;
     flex-direction: row;
@@ -182,6 +188,12 @@ nav a {
 .ecobazar-wrap span {
     font-size: 32px;
     font-weight: 500;
+}
+
+.ecobazar-wrapfour span {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
 }
 
 .ecobazar-wrapthree span {
@@ -1548,7 +1560,7 @@ form input {
     flex-direction: column;
     width: 335px;
     height: 450px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); */
 }
 
 .novbackgroundone {
@@ -1561,6 +1573,7 @@ form input {
     height: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 17px solid #fff;
 }
 
 .novbackgroundtwo {
@@ -1573,6 +1586,7 @@ form input {
     height: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 17px solid #fff;
 }
 
 .novbackgroundthree {
@@ -1585,6 +1599,7 @@ form input {
     height: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 17px solid #fff;
 }
 
 .foodcomments {
@@ -1983,6 +1998,11 @@ footer {
     gap: 15px;
 }
 
+.ecobazarcomfour {
+    display: flex;
+    flex-direction: column;
+}
+
 .ecobazarcomthree {
     display: flex;
     flex-direction: column;
@@ -1991,6 +2011,12 @@ footer {
 .ecobazarcom p {
     font-size: 13px;
     color: #fff;
+    width: 350px;
+}
+
+.ecobazarcomfourp {
+    font-size: 14px;
+    color: #7A997C;
     width: 350px;
 }
 
@@ -2023,6 +2049,12 @@ footer {
     font-size: 15px;
     font-weight: 600;
     color: black;
+}
+
+.ecobazarcontacttextfour {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
 }
 
 .ecobazarcontacttextor {
@@ -2449,6 +2481,11 @@ footer hr {
     flex-direction: column;
 }
 
+.mywishlistfooterfour {
+    display: flex;
+    flex-direction: column;
+}
+
 .mywishlistfooterthree {
     display: flex;
     flex-direction: column;
@@ -2460,6 +2497,13 @@ footer hr {
     margin-bottom: 25px;
 }
 
+.mywishlistfooterfour span {
+    /* font-weight: 600; */
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
 .mywishlistfooterthree span {
     font-weight: 600;
     font-size: 19px;
@@ -2469,6 +2513,12 @@ footer hr {
 
 .mywishlistfooter p {
     color: #797979;
+    font-size: 15px;
+    line-height: 0.5px;
+}
+
+.mywishlistfooterfour p {
+    color: #7A997C;
     font-size: 15px;
     line-height: 0.5px;
 }
